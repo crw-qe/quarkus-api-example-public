@@ -6,7 +6,7 @@ attributes:
 components:
   - name: tools
     container:
-      image: quay.io/devfile/universal-developer-image:ubi8-latest
+      image: registry.access.redhat.com/ubi8/ubi
       env:
         - name: QUARKUS_HTTP_HOST
           value: 0.0.0.0
